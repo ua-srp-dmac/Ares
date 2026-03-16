@@ -84,10 +84,10 @@ margin-left:78%;
 	<header class="App-header">
 	<div class="ui inverted top fixed menu" style:"width:90%">
 		<div class="ui container">
-		<a class="header item" href="http://dmac.pharmacy.arizona.edu/Ares/Develop">
+		<a class="header item" href="https://dmac.pharmacy.arizona.edu/Ares/Develop">
 		<h1 >Ares</h1>
 		</a>
-		<a class="item" href="http://dmac.pharmacy.arizona.edu">
+		<a class="item" href="https://dmac.pharmacy.arizona.edu">
 		<h4 > Home</h4>
 		</a>
 		<a href="https://dmac.pharmacy.arizona.edu/Ares/redirect_uri?logout=https://dmac.pharmacy.arizona.edu" class="item">
@@ -96,8 +96,8 @@ margin-left:78%;
 			<div class="ui float right dropdown link item">
    		 		<span class="text">Menu</span>
     					<div class="menu">    
-      						<a class="item" href="http://dmac.pharmacy.arizona.edu"> Home </a>
-      						<a class="item" href="http://dmac.pharmacy.arizona.edu/Ares/Develop"> Ares </a>
+      						<a class="item" href="https://dmac.pharmacy.arizona.edu"> Home </a>
+      						<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/Develop"> Ares </a>
 						<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/About/AresAbout.html"> About Ares </a>       							
 					</div>
 			</div>
@@ -410,10 +410,10 @@ margin-top:10px;
 	<header class="App-header">
 	<div class="ui inverted top fixed menu" style:"width:90%">
 		<div class="ui container">
-		<a class="header item" href="http://dmac.pharmacy.arizona.edu/Ares/Develop">
+		<a class="header item" href="https://dmac.pharmacy.arizona.edu/Ares/Develop">
 		<h1 >Ares</h1>
 		</a>
-		<a class="item" href="http://dmac.pharmacy.arizona.edu">
+		<a class="item" href="https://dmac.pharmacy.arizona.edu">
 		<h4 > Home</h4>
 		</a>
 		<a href="https://dmac.pharmacy.arizona.edu/Ares/redirect_uri?logout=https://dmac.pharmacy.arizona.edu" class="item">
@@ -423,8 +423,8 @@ margin-top:10px;
 			<div class="ui float right dropdown link item">
    		 		<span class="text">Menu</span>
     					<div class="menu">    
-      						<a class="item" href="http://dmac.pharmacy.arizona.edu"> Home </a>
-      						<a class="item" href="http://dmac.pharmacy.arizona.edu/Ares/Develop"> Ares </a>
+      						<a class="item" href="https://dmac.pharmacy.arizona.edu"> Home </a>
+      						<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/Develop"> Ares </a>
 						<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/About/AresAbout.html"> About Ares </a>       							
 						<a class="item" href="https://dmac.pharmacy.arizona.edu/Hermes/Develop">  Hermes </a>  	       							
 					</div>
@@ -659,11 +659,11 @@ cat('
 <script>
 window.open("')
 
-cat(file.path("http://dmac.pharmacy.arizona.edu/apps", randbase, "ActualPage.html"))
+cat(file.path("https://dmac.pharmacy.arizona.edu/apps", randbase, "ActualPage.html"))
 
 cat('")
 
-window.location.replace("http://dmac.pharmacy.arizona.edu/Ares/Develop")
+window.location.replace("https://dmac.pharmacy.arizona.edu/Ares/Develop")
 
 
 </script>

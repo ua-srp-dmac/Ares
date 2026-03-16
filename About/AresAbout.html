@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>University of Arizona SRP-DMAC Olympus server</title>
+<meta http-equiv="expires"; content="0"; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/AresC/semantic.min.css">
+
+<style>
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#analysisoptiontext:hover{
+font-size: 16px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div id="root">
+<div class="App">
+	<header class="App-header">
+	<div class="ui inverted top fixed menu" style:"width:90%">
+		<div class="ui container">
+		<a class="header item" href="https://dmac.pharmacy.arizona.edu/Ares/Develop">
+		<h1 >Ares</h1>
+		</a>
+		<a class="item" href="https://dmac.pharmacy.arizona.edu">
+		<h4 > Home</h4>
+		</a>
+		<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/redirect_uri?logout=https://dmac.pharmacy.arizona.edu">
+		<h4>Logout</h4>
+		</a>		
+			<div class="ui float right dropdown link item">
+   		 		<span class="text">Menu</span>
+    					<div class="menu">    
+      						<a class="item" href="https://dmac.pharmacy.arizona.edu"> Home </a>
+      						<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/Develop"> Ares </a>
+						<a class="item" href="https://dmac.pharmacy.arizona.edu/Ares/About/AresAbout.html"> About Ares </a>  							
+					</div>
+			</div>
+		</div>
+
+	</div>
+	</header>
+<div class="ui container appBody" style = "padding-top: 100px;">
+
+<h2>About</h2>
+<p class="p-t-15" style = "font-size: large;">
+		Ares performs DESeq2 analysis which analyzes count data from RNA sequences to detect differentially expressed genes using a negative binomial generalized linear model. 
+By default, Deseq2 filters out tests with very little chance of being significant by using the mean of normalized counts as a filter statistic. 
+Ares uses the Benjamini & Hochberg (1995) method implemented by DeSeq2 to control for family-wise error rate. 
+Ares also pre-filters low count genes by removing rows where there are less than 10 reads. The single-read vs paired-end options is passed on from the Demeter App, otherwise Ares defaults to the single-read option.   
+</p>
+
+<h2>R Packages Used</h2>
+<p class="p-t-15" style = "font-size: large;">
+DESeq2, AnalysisPageServer, plotrix, lubridate</p>
+
+<h2>Citations</h2>
+<br>
+<p class="p-t-15" style = "font-size: large;">
+Friedman B, Nowicki A, Whitney H and Brauer M (2016). AnalysisPageServer: A framework for sharing interactive data and plots from R through the web.. R package version 1.6.2.</p>
+<br>
+<p class="p-t-15" style = "font-size: large;">
+Love MI, Huber W, Anders S (2014). “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2.” Genome Biology, 15, 550. doi: 10.1186/s13059-014-0550-8.</p>
+<br>
+</div>
+</div>
+</div>
+
+<script type = "text/javascript" src="/AresC/jquery.min.js"></script>
+<script type = "text/javascript" src="/AresC/semantic.min.js"></script>
+<script type = "text/javascript"> 
+
+$(".ui.dropdown")
+  .dropdown()
+;
+
+</script>
+
+</body>
+</html>
